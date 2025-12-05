@@ -21,8 +21,8 @@ Text_DreamEaterTaught::
     .string "I…can't eat…anymore…$"
 
 PewterCity_Text_ClefairyCameFromMoon::
-    .string "CLEFAIRY came from the moon.\n"
-    .string "That's what the rumor is.\p"
+    .string "Rumor is CLEFAIRY came\n"
+    .string "from the moon.\p"
     .string "They appeared after MOON STONES\n"
     .string "fell on MT. MOON.$"
 
@@ -60,7 +60,7 @@ PewterCity_Text_ThatsRightItsHardWork::
 
 PewterCity_Text_SprayingRepelToKeepWildMonsOut::
     .string "I'm spraying REPEL to keep wild\n"
-    .string "POKéMON out of my garden!$"
+    .string "POKéMON out of PEWTER CITY's park!$"
 
 PewterCity_Text_BrocksLookingForChallengersFollowMe::
     .string "You're a TRAINER, right?\p"
@@ -89,7 +89,7 @@ PewterCity_Text_MuseumOfScience::
 PewterCity_Text_GymSign::
     .string "PEWTER CITY POKéMON GYM\n"
     .string "LEADER: BROCK\l"
-    .string "The Rock-Solid POKéMON TRAINER!$"
+    .string "The Rock-Solid GYM LEADER!$"
 
 PewterCity_Text_CitySign::
     .string "PEWTER CITY\n"

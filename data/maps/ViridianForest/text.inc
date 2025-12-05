@@ -44,15 +44,17 @@ ViridianForest_Text_SammyPostBattle::
     .string "dropped. Can you help me?$"
 
 ViridianForest_Text_AnthonyIntro::
-    .string "I might be little, but I won't like\n"
-    .string "it if you go easy on me!$"
+    .string "Bug POKéMON can be strong in\n"
+    .string "the right team!\p"
+    .string "I'll show you.$"
 
 ViridianForest_Text_AnthonyDefeat::
     .string "Oh, boo.\n"
-    .string "Nothing went right.$"
+    .string "I still can't win.$"
 
 ViridianForest_Text_AnthonyPostBattle::
-    .string "I lost some of my allowance…$"
+    .string "Maybe I need some POKéMON\n"
+    .string "from outside the forest…$"
 
 ViridianForest_Text_CharlieIntro::
     .string "Did you know that POKéMON evolve?$"
@@ -62,8 +64,24 @@ ViridianForest_Text_CharlieDefeat::
     .string "I lost!$"
 
 ViridianForest_Text_CharliePostBattle::
-    .string "BUG POKéMON evolve quickly.\n"
-    .string "They're a lot of fun!$"
+    .string "I raised my METAPOD from a\n"
+    .string "CATERPIE, so it can still\p"
+    .string "use TACKLE.$"
+
+ViridianForest_Text_JoanieIntro::
+	.string "Hi, do you have a PIKACHU?$"
+
+ViridianForest_Text_JoanieDefeat::
+	.string "Oh no, really?$"
+
+ViridianForest_Text_JoaniePostBattle::
+	.string "I looked for ages, but I never\n"
+	.string "found a PIKACHU here!\p"
+	.string "I did catch a BULBASAUR,\n"
+	.string "though.\p"
+	.string "I battled an ACE TRAINER here\n"
+	.string "and he told me finding either\p"
+	.string "one can be tricky!$"
 
 ViridianForest_Text_RanOutOfPokeBalls::
     .string "I was throwing POKé BALLS to\n"
@@ -79,7 +97,7 @@ ViridianForest_Text_AvoidGrassyAreasWhenWeak::
 
 ViridianForest_Text_UseAntidoteForPoison::
     .string "For poison, use ANTIDOTE!\n"
-    .string "Get it at POKéMON MARTS!$"
+    .string "Get it at POKéMARTS!$"
 
 ViridianForest_Text_ContactOakViaPCToRatePokedex::
     .string "TRAINER TIPS\p"
@@ -102,4 +120,3 @@ ViridianForest_Text_WeakenMonsBeforeCapture::
 ViridianForest_Text_LeavingViridianForest::
     .string "LEAVING VIRIDIAN FOREST\n"
     .string "PEWTER CITY AHEAD$"
-

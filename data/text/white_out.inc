@@ -9,7 +9,7 @@ Text_MonsHealedShouldBuyPotions::
 	.string "is down, please come see us.\p"
 	.string "If you're planning to go far in the\n"
 	.string "field, you should buy some POTIONS\l"
-	.string "at the POKéMON MART.\p"
+	.string "at the POKéMART.\p"
 	.string "We hope you excel!$"
 
 Text_MonsHealed::
@@ -36,7 +36,7 @@ Text_MomExplainHPGetPotions::
 	.string "POKéMON CENTER.\p"
 	.string "If you're going to travel far away,\n"
 	.string "the smart TRAINER stocks up on\l"
-	.string "POTIONS at the POKéMON MART.\p"
+	.string "POTIONS at the POKéMART.\p"
 	.string "Make me proud, honey!\p"
 	.string "Take care!$"
 

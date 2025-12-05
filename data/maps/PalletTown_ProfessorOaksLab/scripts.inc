@@ -2,6 +2,7 @@
 .equ PLAYER_STARTER_SPECIES,  VAR_TEMP_2
 .equ RIVAL_STARTER_SPECIES,   VAR_TEMP_3
 .equ RIVAL_STARTER_ID,        VAR_TEMP_4
+.equ PLAYER_STARTER_NATURE,   VAR_TEMP_5
 
 .equ SHOWED_OAK_COMPLETE_DEX, FLAG_TEMP_2
 
@@ -222,6 +223,17 @@ PalletTown_ProfessorOaksLab_ChooseStarterScene::
 	waitmovement 0
 	msgbox PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe
 	msgbox PalletTown_ProfessorOaksLab_Text_OakBePatientRival
+	playfanfare MUS_OBTAIN_KEY_ITEM
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	message PalletTown_ProfessorOaksLab_Text_ReceivedRunningShoesFromAide
+	waitmessage
+	waitfanfare
+	msgbox PalletTown_ProfessorOaksLab_Text_ReceivedRunningShoesFromAide2
+	special DisableMsgBoxWalkaway
+	signmsg
+	closemessage
+	setflag FLAG_SYS_B_DASH
+	msgbox PalletTown_ProfessorOaksLab_Text_PressB
 	setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 2
 	releaseall
 	end
@@ -657,7 +669,7 @@ PalletTown_ProfessorOaksLab_EventScript_ReceiveDexScene::
 	special SetUnlockedPokedexFlags
 	setvar VAR_MAP_SCENE_POKEMON_CENTER_TEALA, 1
 	msgbox PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese
-	giveitem_msg PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls, ITEM_POKE_BALL, 5
+	giveitem_msg PalletTown_ProfessorOaksLab_Text_ReceivedTenPokeBalls, ITEM_POKE_BALL, 10
 	msgbox PalletTown_ProfessorOaksLab_Text_OakExplainCatching
 	famechecker FAMECHECKER_OAK, 1
 	msgbox PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream
@@ -932,7 +944,7 @@ PalletTown_ProfessorOaksLab_EventScript_PlayerOutOfBalls::
 
 PalletTown_ProfessorOaksLab_EventScript_GivePlayerMoreBalls::
 	msgbox PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex
-	giveitem_msg PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls, ITEM_POKE_BALL, 5
+	giveitem_msg PalletTown_ProfessorOaksLab_Text_ReceivedTenPokeBalls, ITEM_POKE_BALL, 10
 	setflag FLAG_GOT_POKEBALLS_FROM_OAK_AFTER_22_RIVAL
 	release
 	end
@@ -1071,6 +1083,7 @@ PalletTown_ProfessorOaksLab_EventScript_BulbasaurBall::
 	faceplayer
 	setvar PLAYER_STARTER_NUM, 0
 	setvar PLAYER_STARTER_SPECIES, SPECIES_BULBASAUR
+	setvar PLAYER_STARTER_NATURE, NATURE_MODEST
 	setvar RIVAL_STARTER_SPECIES, SPECIES_CHARMANDER
 	setvar RIVAL_STARTER_ID, LOCALID_CHARMANDER_BALL
 	goto_if_ge VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 3, PalletTown_ProfessorOaksLab_EventScript_LastPokeBall
@@ -1119,7 +1132,7 @@ PalletTown_ProfessorOaksLab_EventScript_ChoseStarter::
 	call EventScript_RestorePrevTextColor
 	setflag FLAG_SYS_POKEMON_GET
 	setflag FLAG_PALLET_LADY_NOT_BLOCKING_SIGN
-	givemon PLAYER_STARTER_SPECIES, 5
+	givemon PLAYER_STARTER_SPECIES, 5, nature=PLAYER_STARTER_NATURE, hpIv=31, atkIv=31, defIv=31, speedIv=31, spAtkIv=31, spDefIv=31
 	copyvar VAR_STARTER_MON, PLAYER_STARTER_NUM
 	bufferspeciesname STR_VAR_1, PLAYER_STARTER_SPECIES
 	message PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak
@@ -1214,6 +1227,7 @@ PalletTown_ProfessorOaksLab_EventScript_SquirtleBall::
 	faceplayer
 	setvar PLAYER_STARTER_NUM, 1
 	setvar PLAYER_STARTER_SPECIES, SPECIES_SQUIRTLE
+	setvar PLAYER_STARTER_NATURE, NATURE_MODEST
 	setvar RIVAL_STARTER_SPECIES, SPECIES_BULBASAUR
 	setvar RIVAL_STARTER_ID, LOCALID_BULBASAUR_BALL
 	goto_if_ge VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 3, PalletTown_ProfessorOaksLab_EventScript_LastPokeBall
@@ -1227,6 +1241,7 @@ PalletTown_ProfessorOaksLab_EventScript_CharmanderBall::
 	faceplayer
 	setvar PLAYER_STARTER_NUM, 2
 	setvar PLAYER_STARTER_SPECIES, SPECIES_CHARMANDER
+	setvar PLAYER_STARTER_NATURE, NATURE_MODEST
 	setvar RIVAL_STARTER_SPECIES, SPECIES_SQUIRTLE
 	setvar RIVAL_STARTER_ID, LOCALID_SQUIRTLE_BALL
 	goto_if_ge VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 3, PalletTown_ProfessorOaksLab_EventScript_LastPokeBall

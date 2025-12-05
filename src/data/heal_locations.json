@@ -11,7 +11,7 @@
     {
       "id": "HEAL_LOCATION_VIRIDIAN_CITY",
       "map": "MAP_VIRIDIAN_CITY",
-      "x": 26,
+      "x": 27,
       "y": 27,
       "respawn_map": "MAP_VIRIDIAN_CITY_POKEMON_CENTER_1F",
       "respawn_npc": "LOCALID_VIRIDIAN_NURSE"
@@ -19,8 +19,8 @@
     {
       "id": "HEAL_LOCATION_PEWTER_CITY",
       "map": "MAP_PEWTER_CITY",
-      "x": 17,
-      "y": 26,
+      "x": 19,
+      "y": 28,
       "respawn_map": "MAP_PEWTER_CITY_POKEMON_CENTER_1F",
       "respawn_npc": "LOCALID_PEWTER_NURSE"
     },

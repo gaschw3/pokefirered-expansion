@@ -38,6 +38,11 @@ ViridianForest_EventScript_ExitSign::
 	msgbox ViridianForest_Text_LeavingViridianForest, MSGBOX_SIGN
 	end
 
+ViridianForest_EventScript_Joanie::
+	trainerbattle_single TRAINER_LASS_JOANIE, ViridianForest_Text_JoanieIntro, ViridianForest_Text_JoanieDefeat
+	msgbox ViridianForest_Text_JoaniePostBattle, MSGBOX_AUTOCLOSE
+	end
+
 ViridianForest_EventScript_Rick::
 	trainerbattle_single TRAINER_BUG_CATCHER_RICK, ViridianForest_Text_RickIntro, ViridianForest_Text_RickDefeat
 	msgbox ViridianForest_Text_RickPostBattle, MSGBOX_AUTOCLOSE

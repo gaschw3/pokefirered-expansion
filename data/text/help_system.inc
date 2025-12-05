@@ -158,7 +158,7 @@ Help_Text_WhatsPokemonCenter::
 	.string "What's a POKéMON CENTER?$"
 
 Help_Text_WhatsPokemonMart::
-	.string "What's a POKéMON MART?$"
+	.string "What's a POKéMART?$"
 
 Help_Text_WantToEndGame::
 	.string "I want to end the game.$"
@@ -260,7 +260,7 @@ Help_Text_AnswerWhatAreMyAdventureBasics::
 	.string "Get in the habit of saving your\l"
 	.string "game and recording your progress.\l"
 	.string "Stock up on healing items at\l"
-	.string "POKéMON MARTS before traveling far.$"
+	.string "POKéMARTS before traveling far.$"
 
 Help_Text_AnswerHowAreRoadsForestsDifferent::
 	.string "Forests are basically the same as\n"
@@ -307,7 +307,7 @@ Help_Text_AnswerHowDoIPrepareForBattle::
 	.string "party (the POKéMON with you) at any\l"
 	.string "POKéMON CENTER.\l"
 	.string "You should also buy healing items for\l"
-	.string "emergencies at a POKéMON MART.$"
+	.string "emergencies at a POKéMART.$"
 
 Help_Text_AnswerWhatIsAMonsVitality::
 	.string "A POKéMON's vitality is expressed in HP.\n"
@@ -355,18 +355,18 @@ Help_Text_AnswerCantCatchMons::
 Help_Text_AnswerRanOutOfPotions::
 	.string "There are shops, known as POKéMON\n"
 	.string "MARTS, that sell items.\l"
-	.string "You will not find POKéMON MARTS on\l"
+	.string "You will not find POKéMARTS on\l"
 	.string "roads, in forests, or in caves.\l"
 	.string "Stock up on needed items while you are\l"
-	.string "visiting a town with a POKéMON MART.$"
+	.string "visiting a town with a POKéMART.$"
 
 Help_Text_AnswerCanIBuyPokeBalls::
 	.string "You may buy POKé BALLS at any\n"
-	.string "POKéMON MART in any town.\l"
-	.string "You will not find POKéMON MARTS on\l"
+	.string "POKéMART in any town.\l"
+	.string "You will not find POKéMARTS on\l"
 	.string "roads, in forests, or in caves.\l"
 	.string "Stock up on POKé BALLS while you are\l"
-	.string "visiting a town with a POKéMON MART.$"
+	.string "visiting a town with a POKéMART.$"
 
 Help_Text_AnswerWhatsATrainer::
 	.string "A TRAINER is a person who raises\n"
@@ -467,10 +467,10 @@ Help_Text_AnswerWhatsPokemonCenter::
 	.string "linking with friends and others.$"
 
 Help_Text_AnswerWhatsPokemonMart::
-	.string "A POKéMON MART is identified by its\n"
+	.string "A POKéMART is identified by its\n"
 	.string "blue roof and a “MART” sign.\l"
 	.string "Items can be bought and sold at any\l"
-	.string "POKéMON MART. Some MARTS carry items\l"
+	.string "POKéMART. Some MARTS carry items\l"
 	.string "that are available only in their towns.$"
 
 Help_Text_AnswerWantToEndGame::
@@ -1293,7 +1293,7 @@ Help_Text_DefineMoney::
 	.string "Whenever you win a battle against a\n"
 	.string "TRAINER, you are given prize money.\l"
 	.string "Save up your prize money so you can\l"
-	.string "enjoy shopping at POKéMON MARTS!$"
+	.string "enjoy shopping at POKéMARTS!$"
 
 Help_Text_DefineMoveType::
 	.string "Moves are also classified by types.\n"
@@ -1492,7 +1492,7 @@ Help_Text_DefineMoney2::
 	.string "Whenever you win a battle against a\n"
 	.string "TRAINER, you are given prize money.\l"
 	.string "Save up your prize money so you can\l"
-	.string "enjoy shopping at POKéMON MARTS!$"
+	.string "enjoy shopping at POKéMARTS!$"
 
 Help_Text_DefineBadges2::
 	.string "This indicates the number of POKéMON\n"

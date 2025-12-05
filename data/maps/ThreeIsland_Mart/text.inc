@@ -12,6 +12,6 @@ ThreeIsland_Mart_Text_PeopleHealWithBerriesFromForest::
 
 ThreeIsland_Mart_Text_BikersWereAboutToTrashMart::
     .string "Those BIKERS were about to trash\n"
-    .string "this POKéMON MART.\p"
+    .string "this POKéMART.\p"
     .string "Am I glad they decided to leave!$"
 

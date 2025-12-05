@@ -184,7 +184,8 @@
       "id": "MAPSEC_RUSTURF_TUNNEL"
     },
     {
-      "id": "MAPSEC_ABANDONED_SHIP"
+      "id": "MAPSEC_ABANDONED_SHIP",
+      "name": "VIRIDIAN CITY FISHER"
     },
     {
       "id": "MAPSEC_NEW_MAUVILLE"
@@ -355,7 +356,6 @@
     {
       "id": "MAPSEC_ROUTE_4_POKECENTER",
       "name": "ROUTE 4",
-      "name_clone": true,
       "x": 8,
       "y": 3,
       "width": 1,
@@ -364,7 +364,6 @@
     {
       "id": "MAPSEC_ROUTE_10_POKECENTER",
       "name": "ROUTE 10",
-      "name_clone": true,
       "x": 18,
       "y": 3,
       "width": 1,
@@ -605,7 +604,6 @@
     {
       "id": "MAPSEC_UNDERGROUND_PATH_2",
       "name": "UNDERGROUND PATH",
-      "name_clone": true,
       "x": 12,
       "y": 6,
       "width": 1,
@@ -998,7 +996,6 @@
     {
       "id": "MAPSEC_TRAINER_TOWER_2",
       "name": "TRAINER TOWER",
-      "name_clone": true,
       "x": 5,
       "y": 6,
       "width": 1,

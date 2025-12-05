@@ -13,7 +13,7 @@
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": null,
   "object_events": [
     {
       "type": "object",
@@ -129,11 +129,11 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
+      "graphics_id": "OBJ_EVENT_GFX_COOLTRAINER_M",
       "x": 43,
       "y": 6,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_UP",
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT_AND_RIGHT",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -168,6 +168,20 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "ViridianForest_EventScript_ItemPotion2",
       "flag": "FLAG_HIDE_VIRIDIAN_FOREST_POTION_2"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_LASS",
+      "x": 8,
+      "y": 58,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WALK_SEQUENCE_DOWN_LEFT_RIGHT_UP",
+      "movement_range_x": 2,
+      "movement_range_y": 2,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "ViridianForest_EventScript_Joanie",
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -214,9 +228,7 @@
       "dest_warp_id": "1"
     }
   ],
-  "coord_events": [
-
-  ],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "sign",

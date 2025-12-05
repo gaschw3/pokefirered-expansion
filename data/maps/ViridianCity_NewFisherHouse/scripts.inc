@@ -1,0 +1,99 @@
+ViridianCity_NewFisherHouse_MapScripts::
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, ViridianCity_Fisherman_OnFrame
+	.byte 0
+	
+ViridianCity_Fisherman_OnFrame::
+	map_script_2 VAR_MAP_SCENE_VIRIDIAN_CITY_FISHER, 0, ViridianCity_Fisherman_EventScript_OldRodScene
+	.2byte 0
+
+ViridianCity_Fisherman_EventScript_OldRodScene::
+	lockall
+	textcolor NPC_TEXT_COLOR_MALE
+	applymovement LOCALID_FISHER, Common_Movement_ExclamationMark
+	waitmovement 0
+	msgbox ViridianCity_Fisherman_Text_YouLookLikeAFisherman
+	closemessage
+	applymovement OBJ_EVENT_ID_PLAYER, ViridianCity_Fisherman_Movement_ApproachFisher
+	applymovement LOCALID_FISHER, ViridianCity_Fisherman_Movement_FacePlayer
+	waitmovement 0
+	setvar VAR_MAP_SCENE_VIRIDIAN_CITY_FISHER, 1
+	msgbox ViridianCity_Fisherman_Text_ImFishingGuruDoYouLikeToFish, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, ViridianCity_Fisherman_EventScript_GiveOldRod
+	msgbox ViridianCity_Fisherman_Text_AreYouSure, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, ViridianCity_Fisherman_EventScript_AreYouSure
+	goto ViridianCity_Fisherman_EventScript_GiveOldRod
+	releaseall
+	end
+
+ViridianCity_Fisherman_EventScript_AreYouSure::
+	msgbox ViridianCity_Fisherman_Text_AreYouSure, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, ViridianCity_Fisherman_EventScript_AreYouSure
+	goto ViridianCity_Fisherman_EventScript_GiveOldRod
+
+
+ViridianCity_Fisherman_Movement_ApproachFisher::
+	walk_left
+	walk_up
+	walk_up
+	walk_up
+	walk_in_place_faster_left
+	step_end
+
+ViridianCity_Fisherman_Movement_FacePlayer::
+	delay_16
+	delay_16
+	delay_16
+	delay_16
+	walk_in_place_faster_right
+	step_end
+
+ViridianCity_Fisherman_EventScript_AlreadyGotOldRod::
+	msgbox ViridianCity_Fisherman_Text_HowAreTheFishBiting
+	release
+	end
+
+ViridianCity_Fisherman_EventScript_GiveOldRod::
+	checkitemspace ITEM_OLD_ROD
+	goto_if_eq VAR_RESULT, FALSE, ViridianCity_Fisherman_EventScript_NoRoomForOldRod
+	additem ITEM_OLD_ROD
+	msgbox ViridianCity_Fisherman_Text_TakeThisAndFish
+	msgreceiveditem ViridianCity_Fisherman_Text_ReceivedOldRodFromFishingGuru, ITEM_OLD_ROD
+	setflag FLAG_GOT_OLD_ROD
+	msgbox ViridianCity_Fisherman_Text_FishingIsAWayOfLife
+	release
+	end
+
+ViridianCity_Fisherman_EventScript_NoRoomForOldRod::
+	msgbox ViridianCity_Fisherman_Text_NoRoomForNiceGift
+	release
+	end
+
+ViridianCity_House_EventScript_Fisherman::
+	lock
+	faceplayer
+	goto_if_set FLAG_GOT_OLD_ROD, ViridianCity_Fisherman_EventScript_AlreadyGotOldRod
+	msgbox ViridianCity_Fisherman_Text_ImFishingGuruDoYouLikeToFish, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, ViridianCity_Fisherman_EventScript_GiveOldRod
+	msgbox ViridianCity_Fisherman_EventScript_AreYouSure
+	release
+	end
+
+ViridianCity_House_EventScript_Psyduck::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_PSYDUCK, CRY_MODE_NORMAL
+	msgbox ViridianCity_House_Text_Psyduck
+	waitmoncry
+	release
+	end
+
+ViridianCity_House_EventScript_Lapras::
+	lock
+	faceplayer
+	waitse
+	playmoncry SPECIES_SLOWPOKE, CRY_MODE_FAINT
+	msgbox ViridianCity_House_Text_Lapras
+	waitmoncry
+	release
+	end

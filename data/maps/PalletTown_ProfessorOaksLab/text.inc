@@ -1,5 +1,5 @@
 PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround::
-    .string "{RIVAL}: What, it's only {PLAYER}?\n"
+    .string "{RIVAL}: Oh, it's just you?\n"
     .string "Gramps isn't around.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting::
@@ -101,25 +101,28 @@ PalletTown_ProfessorOaksLab_Text_OakHeyDontGoAwayYet::
     .string "Don't go away yet!$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander::
-    .string "Ah! CHARMANDER is your choice.\n"
-    .string "You should raise it patiently.\p"
+    .string "Ah! That's a CHARMANDER.\p"
+    .string "It'll be easy to train in the FOREST,\n"
+    .string "but will be weak in nearby GYMS.\p"
     .string "So, {PLAYER}, you're claiming the\n"
     .string "FIRE POKéMON CHARMANDER?$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingSquirtle::
-    .string "Hm! SQUIRTLE is your choice.\n"
-    .string "It's one worth raising.\p"
+    .string "Oh! That's a SQUIRTLE.\p"
+    .string "It can train easily at MT. MOON,\n"
+    .string "and will be strong in your first GYM.\p"
     .string "So, {PLAYER}, you've decided on the\n"
     .string "WATER POKéMON SQUIRTLE?$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur::
-    .string "I see! BULBASAUR is your choice.\n"
-    .string "It's very easy to raise.\p"
+    .string "Mhmm! That's a BULBASAUR.\p"
+    .string "Training it nearby won't be great, but\n"
+    .string "it'll be strong in the first 3 GYMS.\p"
     .string "So, {PLAYER}, you want to go with\n"
     .string "the GRASS POKéMON BULBASAUR?$"
 
 PalletTown_ProfessorOaksLab_Text_OakThisMonIsEnergetic::
-    .string "This POKéMON is really quite\n"
+    .string "This POKéMON seems quite\n"
     .string "energetic!$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak::
@@ -183,8 +186,8 @@ PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese::
     .string "So, here are some tools for\n"
     .string "catching wild POKéMON.$"
 
-PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls::
-    .string "{PLAYER} received five POKé BALLS.$"
+PalletTown_ProfessorOaksLab_Text_ReceivedTenPokeBalls::
+    .string "{PLAYER} received ten POKé BALLS.$"
 
 PalletTown_ProfessorOaksLab_Text_OakExplainCatching::
     .string "When a wild POKéMON appears,\n"
@@ -199,8 +202,8 @@ PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream::
     .string "To make a complete guide on all\n"
     .string "the POKéMON in the world…\p"
     .string "That was my dream!\p"
-    .string "But, I'm too old.\n"
-    .string "I can't get the job done.\p"
+    .string "But at my age, with my reasearch\n"
+    .string "obligations, I just don't have time.\p"
     .string "So, I want you two to fulfill my\n"
     .string "dream for me.\p"
     .string "Get moving, you two.\p"
@@ -355,3 +358,15 @@ PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex::
     .string "ONE ISLAND first…\p"
     .string "Anyways, I'm outta here!$"
 
+PalletTown_ProfessorOaksLab_Text_ReceivedRunningShoesFromAide::
+    .string "{PLAYER} received the\n"
+    .string "RUNNING SHOES from PROF. OAK.$"
+
+PalletTown_ProfessorOaksLab_Text_ReceivedRunningShoesFromAide2::
+    .string "{PLAYER} put on the\n"
+    .string "RUNNING SHOES.$"
+
+PalletTown_ProfessorOaksLab_Text_PressB::
+    .string "With the RUNNING SHOES,\n"
+    .string "press the B Button to run!$"
+    

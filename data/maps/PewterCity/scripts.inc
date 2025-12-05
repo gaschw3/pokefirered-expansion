@@ -85,6 +85,8 @@ PewterCity_EventScript_WalkToGymNorth::
 	walk_up
 	walk_up
 	walk_up
+	walk_up
+	walk_left
 	walk_left
 	walk_left
 	walk_left
@@ -108,8 +110,6 @@ PewterCity_EventScript_WalkToGymNorth::
 	walk_down
 	walk_down
 	walk_down
-	walk_down
-	walk_right
 	walk_right
 	walk_right
 	walk_right
@@ -245,12 +245,12 @@ PewterCity_Movement_GymGuideExit::
 	walk_left
 	walk_left
 	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
 	step_end
 
 PewterCity_EventScript_GymGuideTriggerTop::
