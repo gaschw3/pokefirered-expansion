@@ -40,6 +40,6 @@ ViridianCity_House_Text_Psyduck::
     .string "PSYDUCK: Psy-y-yy!$"
 
 ViridianCity_House_Text_Lapras::
-    .string "LAPRAS: Slow...\p"
+    .string "SLOWPOKE: Slow...\p"
     .string "...\p"
     .string "poke...$"

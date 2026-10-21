@@ -11,7 +11,7 @@ VermilionCity_Gym_Text_LtSurgeIntro::
 
 VermilionCity_Gym_Text_LtSurgePostBattle::
     .string "A little word of advice, kid!\p"
-    .string "Electricity is sure powerful!\p"
+    .string "Electricity is powerful!\p"
     .string "But, it's useless against GROUND-\n"
     .string "type POKéMON!$"
 
@@ -54,9 +54,9 @@ VermilionCity_Gym_Text_TuckerPostBattle::
     .string "his cautious nature in the Army.$"
 
 VermilionCity_Gym_Text_BailyIntro::
-    .string "I'm a lightweight, but I'm good\n"
-    .string "with electricity!\p"
-    .string "That's why I joined this GYM.$"
+    .string "I've got two PICKACHU, but I\n"
+    .string "wanted to raise them differently.\p"
+    .string "That's why I joined this GYM!$"
 
 VermilionCity_Gym_Text_BailyDefeat::
     .string "Fried!$"
@@ -67,8 +67,8 @@ VermilionCity_Gym_Text_BailyPostBattle::
     .string "switches inside something.$"
 
 VermilionCity_Gym_Text_DwayneIntro::
-    .string "This is no place for kids!\n"
-    .string "Not even if you're good!$"
+    .string "I found some strange POKéMON on\n"
+    .string "my voyages!$"
 
 VermilionCity_Gym_Text_DwayneDefeat::
     .string "Wow!\n"
@@ -87,7 +87,7 @@ VermilionCity_Gym_Text_GymGuyAdvice::
     .string "Champ in the making!\p"
     .string "LT. SURGE has a nickname.\p"
     .string "People refer to him as the\n"
-    .string "Lightning American!\p"
+    .string "Lightning Bolt!\p"
     .string "He's an expert on electric\n"
     .string "POKéMON.\p"
     .string "BIRD/WATER-type POKéMON match\n"
@@ -121,12 +121,6 @@ VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened::
     .string "Hey! There's a switch under the\n"
     .string "trash! Turn it on!\p"
     .string "The first electric lock opened!$"
-
-VermilionCity_Gym_Text_AnotherSwitchInTrash::
-    .string "ガサゴソ‥！\n"
-    .string "おっと！　ゴミばこの　そこに\l"
-    .string "また　スイッチが　あった！\l"
-    .string "おして　みよう！　‥　ポチッとな$"
 
 VermilionCity_Gym_Text_SecondLockOpened::
     .string "The second electric lock opened!\n"

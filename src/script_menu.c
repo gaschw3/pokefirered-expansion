@@ -711,6 +711,8 @@ static const u16 sMuseumAerodactylSprTiles[] = INCBIN_U16("graphics/script_menu/
 static const u16 sMuseumAerodactylSprPalette[] = INCBIN_U16("graphics/script_menu/aerodactyl_fossil.gbapal");
 static const u16 sMuseumKabutopsSprTiles[] = INCBIN_U16("graphics/script_menu/kabutops_fossil.4bpp");
 static const u16 sMuseumKabutopsSprPalette[] = INCBIN_U16("graphics/script_menu/kabutops_fossil.gbapal");
+static const u16 sMuseumOmastarSprTiles[] = INCBIN_U16("graphics/script_menu/omastar_fossil.4bpp");
+static const u16 sMuseumOmastarSprPalette[] = INCBIN_U16("graphics/script_menu/omastar_fossil.gbapal");
 
 static const struct SpriteSheet sMuseumKabutopsSprSheets[] = {
     {sMuseumKabutopsSprTiles, sizeof(sMuseumKabutopsSprTiles), GFXTAG_FOSSIL},
@@ -719,6 +721,11 @@ static const struct SpriteSheet sMuseumKabutopsSprSheets[] = {
 
 static const struct SpriteSheet sMuseumAerodactylSprSheets[] = {
     {sMuseumAerodactylSprTiles, sizeof(sMuseumAerodactylSprTiles), GFXTAG_FOSSIL},
+    {}
+};
+
+static const struct SpriteSheet sMuseumOmastarSprSheets[] = {
+    {sMuseumOmastarSprTiles, sizeof(sMuseumOmastarSprTiles), GFXTAG_FOSSIL},
     {}
 };
 
@@ -1542,6 +1549,11 @@ bool8 OpenMuseumFossilPic(void)
     {
         LoadSpriteSheets(sMuseumAerodactylSprSheets);
         LoadPalette(sMuseumAerodactylSprPalette, OBJ_PLTT_ID(FOSSIL_PIC_PAL_NUM), sizeof(sMuseumAerodactylSprPalette));
+    }
+    else if (gSpecialVar_0x8004 == SPECIES_OMASTAR)
+    {
+        LoadSpriteSheets(sMuseumOmastarSprSheets);
+        LoadPalette(sMuseumOmastarSprSheets, OBJ_PLTT_ID(FOSSIL_PIC_PAL_NUM), sizeof(sMuseumOmastarSprSheets));
     }
     else
     {

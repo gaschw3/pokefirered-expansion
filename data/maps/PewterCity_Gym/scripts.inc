@@ -40,6 +40,11 @@ PewterCity_Gym_EventScript_Liam::
 	msgbox PewterCity_Gym_Text_LiamPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+PewterCity_Gym_EventScript_Cody::
+	trainerbattle_single TRAINER_HIKER_CODY, PewterCity_Gym_Text_CodyIntro, PewterCity_Gym_Text_CodyDefeat
+	msgbox PewterCity_Gym_Text_CodyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 PewterCity_Gym_EventScript_GymGuy::
 	lock
 	faceplayer

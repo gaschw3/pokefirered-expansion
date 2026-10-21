@@ -73,8 +73,20 @@ PewterCity_Gym_Text_LiamDefeat::
     .string "It measures distance!$"
 
 PewterCity_Gym_Text_LiamPostBattle::
-    .string "You're pretty hot.\n"
-    .string "…But not as hot as BROCK!$"
+    .string "You're pretty tough.\n"
+    .string "…But not as tough as BROCK!$"
+
+PewterCity_Gym_Text_CodyIntro::
+    .string "Sometimes us HIKERS come down\n"
+    .string "from MT. MOON to help BROCK.$"
+
+PewterCity_Gym_Text_CodyDefeat::
+    .string "Maybe I should stick\n"
+    .string "to hiking…$"
+
+PewterCity_Gym_Text_CodyPostBattle::
+    .string "My ONIX isn't as strong.\n"
+    .string "as BROCKS.$"
 
 PewterCity_Gym_Text_LetMeTakeYouToTheTop::
     .string "Hiya!\n"

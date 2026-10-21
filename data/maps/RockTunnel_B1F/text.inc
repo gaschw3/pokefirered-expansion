@@ -93,3 +93,8 @@ RockTunnel_B1F_Text_WinstonPostBattle::
     .string "I'm an artist, not a fighter.\n"
     .string "I'll go home to draw.$"
 
+RockTunnel_B1F_Text_IceSign::
+    .string "RANGER NOTICE\p"
+    .string "Cave becomes extremely cold\n"
+    .string "beyond this point.\p"
+    .string "Proceed with caution.$"

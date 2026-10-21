@@ -1,9 +1,10 @@
 Route25_Text_JoeyIntro::
-    .string "Local TRAINERS come here to\n"
-    .string "practice.$"
+    .string "I have a super cool RATTATA!\p"
+    .string "It's probably in the top\n"
+    .string "percentage of all RATTATAs!$"
 
 Route25_Text_JoeyDefeat::
-    .string "You're decent.$"
+    .string "Oh... but I only have one.$"
 
 Route25_Text_JoeyPostBattle::
     .string "All POKéMON have weaknesses.\n"

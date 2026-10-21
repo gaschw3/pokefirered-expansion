@@ -187,3 +187,14 @@ PewterCity_Museum_1F_EventScript_KabutopsFossil::
 	special CloseMuseumFossilPic
 	releaseall
 	end
+
+PewterCity_Museum_1F_EventScript_OmastarFossil::
+	lockall
+	setvar VAR_0x8004, SPECIES_OMASTAR
+	setvar VAR_0x8005, 10
+	setvar VAR_0x8006, 3
+	special OpenMuseumFossilPic
+	msgbox PewterCity_Museum_1F_Text_OmastarFossil
+	special CloseMuseumFossilPic
+	releaseall
+	end

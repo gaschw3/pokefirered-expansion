@@ -1,0 +1,45 @@
+{
+  "id": "MAP_ROCK_TUNNEL_NORTH_ENTRANCE",
+  "name": "RockTunnel_NorthEntrance",
+  "layout": "LAYOUT_ROCK_TUNNEL_NORTH_ENTRANCE",
+  "music": "MUS_MT_MOON",
+  "region_map_section": "MAPSEC_ROCK_TUNNEL",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 18,
+      "y": 22,
+      "elevation": 3,
+      "dest_map": "MAP_ROUTE10",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 11,
+      "y": 4,
+      "elevation": 3,
+      "dest_map": "MAP_ROCK_TUNNEL_1F",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 16,
+      "y": 12,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "RockTunnel_NorthEntrance_EventScript_DarknessSign"
+    }
+  ]
+}

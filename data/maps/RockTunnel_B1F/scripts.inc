@@ -40,3 +40,7 @@ RockTunnel_B1F_EventScript_Winston::
 	trainerbattle_single TRAINER_POKEMANIAC_WINSTON, RockTunnel_B1F_Text_WinstonIntro, RockTunnel_B1F_Text_WinstonDefeat
 	msgbox RockTunnel_B1F_Text_WinstonPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+RockTunnel_B1F_EventScript_IceSign::
+	msgbox RockTunnel_B1F_Text_IceSign, MSGBOX_SIGN
+	end

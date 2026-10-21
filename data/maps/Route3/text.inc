@@ -2,14 +2,16 @@ Route3_Text_TunnelFromCeruleanTiring::
     .string "Whew… I better take a rest…\n"
     .string "Groan…\p"
     .string "That tunnel from CERULEAN takes a\n"
-    .string "lot out of you!$"
+    .string "lot out of you!\p"
+    .string "I should teach a POKEéMON CUT\n"
+    .string "so I could go over instead.$"
 
 Route3_Text_ColtonIntro::
     .string "Hey!\n"
-    .string "I saw you in VIRIDIAN FOREST!$"
+    .string "You beat my friend in VIRIDIAN FOREST!$"
 
 Route3_Text_ColtonDefeat::
-    .string "You beat me again!$"
+    .string "You beat me too?!$"
 
 Route3_Text_ColtonPostBattle::
     .string "There are other kinds of POKéMON\n"
@@ -46,8 +48,8 @@ Route3_Text_GregIntro::
     .string "Let's get with it right away!$"
 
 Route3_Text_GregDefeat::
-    .string "If I had new POKéMON, I would've\n"
-    .string "won!$"
+    .string "If I had more BUTTERFREE, I\n"
+    .string "would've won!$"
 
 Route3_Text_GregPostBattle::
     .string "If a POKéMON BOX on the PC gets\n"
@@ -88,15 +90,15 @@ Route3_Text_JamesPostBattle::
     .string "the wild ones.$"
 
 Route3_Text_RobinIntro::
-    .string "Eek!\n"
-    .string "Did you touch me?$"
+    .string "Oh, hi!\n"
+    .string "Are you getting sleepy?$"
 
 Route3_Text_RobinDefeat::
-    .string "That's it?$"
+    .string "How did you stay alert?$"
 
 Route3_Text_RobinPostBattle::
-    .string "ROUTE 4 is at the foot of\n"
-    .string "MT. MOON.$"
+    .string "My team revolves around putting\n"
+    .string "you to SLEEP.$"
 
 Route3_Text_RouteSign::
     .string "ROUTE 3\n"

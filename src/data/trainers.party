@@ -1019,6 +1019,279 @@ Ekans
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
+/* Viridian Forest Start */
+=== TRAINER_LASS_JOANIE ===
+Name: JOANIE
+Class: Lass
+Pic: Lass
+Gender: Male
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Pidgey
+Level: 7
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Gust
+- Tackle
+
+Bulbasaur
+Level: 6
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Vine Whip
+
+=== TRAINER_BUG_CATCHER_RICK ===
+Name: RICK
+Class: Bug Catcher
+Pic: Bug Catcher
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Weedle
+Level: 6
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Caterpie
+Level: 6
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BUG_CATCHER_DOUG ===
+Name: DOUG
+Class: Bug Catcher
+Pic: Bug Catcher
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Weedle
+Level: 7
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Caterpie
+Level: 7
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Paras
+Level: 9
+IVs: 20 HP / 10 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Scratch
+- Poison Powder
+- Absorb
+
+=== TRAINER_BUG_CATCHER_ANTHONY ===
+Name: ANTHONY
+Class: Cooltrainer
+Pic: Cooltrainer M
+Gender: Male
+Music: Cool
+Items: Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Weedle
+Level: 7
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Poison Sting
+
+Pikachu
+Level: 8
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 30 Spe
+- Thunder Shock
+- Thunder Wave
+
+Butterfree
+Level: 10
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Confusion
+- Gust
+- Signal Beam
+
+=== TRAINER_BUG_CATCHER_CHARLIE ===
+Name: CHARLIE
+Class: Bug Catcher
+Pic: Bug Catcher
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Caterpie
+Level: 6
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kakuna
+Level: 8
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Metapod
+Level: 9
+IVs: 20 HP / 20 Atk / 20 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Harden
+
+=== TRAINER_BUG_CATCHER_SAMMY ===
+Name: SAMMY
+Class: Bug Catcher
+Pic: Bug Catcher
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Venonat
+Level: 10
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+- Struggle Bug
+- Confusion
+- Disable
+/* Viridian Forest End */
+
+/* Route 3 Start */
+=== TRAINER_BUG_CATCHER_COLTON ===
+Name: COLTON
+Class: Bug Catcher
+Pic: Bug Catcher
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Weedle
+Level: 6
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kakuna
+Level: 8
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Beedrill
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_YOUNGSTER_BEN ===
+Name: BEN
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Rattata
+Level: 11
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Ekans
+Level: 11
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BUG_CATCHER_GREG ===
+Name: GREG
+Class: Bug Catcher
+Pic: Bug Catcher
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Caterpie
+Level: 6
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Metapod
+Level: 8
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Butterfree
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_YOUNGSTER_CALVIN ===
+Name: CALVIN
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Spearow
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_LASS_SALLY ===
+Name: SALLY
+Class: Lass
+Pic: Lass
+Gender: Male
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Rattata Alola
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Nidoran F
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_BUG_CATCHER_JAMES ===
+Name: JAMES
+Class: Bug Catcher
+Pic: Bug Catcher
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Paras
+Level: 11
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Zubat
+Level: 11
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_LASS_ROBIN ===
+Name: ROBIN
+Class: Cooltrainer
+Pic: Cooltrainer F
+Gender: Female
+Music: Cool
+Items: Potion / Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Paras
+Level: 14
+Ball: Dream Ball
+IVs: 0 HP / 15 Atk / 0 Def / 0 SpA / 0 SpD / 30 Spe
+- Spore
+- Fury Cutter
+- Mega Drain
+
+Slowpoke
+Level: 14
+Ball: Dream Ball
+IVs: 20 HP / 0 Atk / 20 Def / 0 SpA / 20 SpD / 0 Spe
+- Yawn
+- Nightmare
+- Water Gun
+
+Jigglypuff
+Level: 15
+Ball: Dream Ball
+IVs: 30 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sing
+- Disarming Voice
+- Wake-Up Slap
+/* Route 3 Start */
+
 === TRAINER_AQUA_ADMIN_MATT ===
 Name: MATT
 Class: Aqua Admin
@@ -1170,36 +1443,6 @@ Ekans
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_YOUNGSTER_BEN ===
-Name: BEN
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Rattata
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Ekans
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_YOUNGSTER_CALVIN ===
-Name: CALVIN
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Spearow
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_YOUNGSTER_JOSH ===
 Name: JOSH
 Class: Youngster
@@ -1249,11 +1492,8 @@ AI: Check Bad Move
 
 Rattata
 Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Spearow
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+EVs: 100 HP / 100 Atk / 100 Def / 100 SpA / 100 SpD / 100 Spe
 
 === TRAINER_YOUNGSTER_DAN ===
 Name: DAN
@@ -1382,69 +1622,6 @@ IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 Ekans
 Level: 17
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-=== TRAINER_BUG_CATCHER_COLTON ===
-Name: COLTON
-Class: Bug Catcher
-Pic: Bug Catcher
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Caterpie
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Weedle
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Caterpie
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BUG_CATCHER_GREG ===
-Name: GREG
-Class: Bug Catcher
-Pic: Bug Catcher
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Weedle
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Kakuna
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Caterpie
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Metapod
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BUG_CATCHER_JAMES ===
-Name: JAMES
-Class: Bug Catcher
-Pic: Bug Catcher
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Caterpie
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Metapod
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BUG_CATCHER_KENT ===
 Name: KENT
@@ -1617,36 +1794,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgey
 Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_LASS_SALLY ===
-Name: SALLY
-Class: Lass
-Pic: Lass
-Gender: Male
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Rattata
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Nidoran F
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_LASS_ROBIN ===
-Name: ROBIN
-Class: Lass
-Pic: Lass
-Gender: Male
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Jigglypuff
-Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LASS_CRISSY ===
@@ -2047,45 +2194,6 @@ Machop
 Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_SAILOR_DWAYNE ===
-Name: DWAYNE
-Class: Sailor
-Pic: Sailor
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Pikachu
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Pikachu
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CAMPER_LIAM ===
-Name: LIAM
-Class: Camper
-Pic: Camper
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Geodude
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Defense Curl
-
-Sandshrew
-Level: 11
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Scratch
-- Defense Curl
-- Sand Attack
-
 === TRAINER_CAMPER_SHANE ===
 Name: SHANE
 Class: Camper
@@ -2198,19 +2306,6 @@ Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sandshrew
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_PICNICKER_DIANA ===
-Name: DIANA
-Class: Picnicker
-Pic: Picnicker
-Gender: Male
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Goldeen
 Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3083,28 +3178,20 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HIKER_LUCAS ===
 Name: LUCAS
-Class: Hiker
-Pic: Hiker
+Class: Fisherman
+Pic: Fisherman
 Gender: Male
 Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 21
+Horsea
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Magnitude
-- Rock Throw
-- Mud Sport
-- Defense Curl
 
-Graveler
-Level: 21
+Dratini
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Magnitude
-- Rock Throw
-- Mud Sport
-- Defense Curl
 
 === TRAINER_BIKER_JARED ===
 Name: JARED
@@ -3707,23 +3794,6 @@ Ponyta
 Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_ENGINEER_BAILY ===
-Name: BAILY
-Class: Engineer
-Pic: Engineer
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Voltorb
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Magnemite
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_ENGINEER_BRAXTON ===
 Name: BRAXTON
 Class: Engineer
@@ -3983,23 +4053,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magikarp
 Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_SWIMMER_MALE_LUIS ===
-Name: LUIS
-Class: Swimmer M
-Pic: Swimmer M
-Gender: Male
-Music: Swimmer
-Double Battle: No
-AI: Check Bad Move
-
-Horsea
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Shellder
-Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SWIMMER_MALE_RICHARD ===
@@ -7755,7 +7808,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Name: MARY
 Class: Cooltrainer
 Pic: Cooltrainer F
-Gender: Male
+Gender: Female
 Music: Cool
 Items: Super Potion
 Double Battle: No
@@ -8355,6 +8408,46 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Outrage
 - Wing Attack
 
+=== TRAINER_CAMPER_LIAM ===
+Name: LIAM
+Class: Camper
+Pic: Camper
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Risky
+
+Geodude
+Ability: Sturdy
+Level: 10
+IVs: 0 HP / 31 Atk / 0 Def / 0 SpA / 0 SpD / 31 Spe
+- Tackle
+- Defense Curl
+- Rock Throw
+- Self Destruct
+
+Sandshrew
+Level: 11
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Scratch
+- Fury Cutter
+- Sand Tomb
+
+=== TRAINER_HIKER_CODY ===
+Name: CODY
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Risky
+
+Onix
+Ability: Weak Armor
+Level: 13
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Rock Throw
+
 === TRAINER_LEADER_BROCK ===
 Name: BROCK
 Class: Leader
@@ -8362,9 +8455,10 @@ Pic: Leader Brock
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Risky / Ace Pokemon
 
 Geodude
+Ability:Sturdy
 Level: 12
 IVs: 22 HP / 22 Atk / 22 Def / 0 SpA / 22 SpD / 22 Spe
 - Rock Throw
@@ -8380,10 +8474,44 @@ IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 
 Onix
 Level: 14
+Jolly Nature
 IVs: 20 HP / 10 Atk / 20 Def / 0 SpA / 20 SpD / 20 Spe
-- Dig
+- Bulldoze
 - Bind
 - Rock Tomb
+
+=== TRAINER_PICNICKER_DIANA ===
+Name: DIANA
+Class: Picnicker
+Pic: Picnicker
+Gender: Male
+Music: Girl
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Staryu
+Level: 19
+IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
+- Harden
+- Recover
+- Water Pulse
+
+=== TRAINER_SWIMMER_MALE_LUIS ===
+Name: LUIS
+Class: Swimmer M
+Pic: Swimmer M
+Gender: Male
+Music: Swimmer
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Horsea
+Level: 16
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Shellder
+Level: 16
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LEADER_MISTY ===
 Name: MISTY
@@ -8395,21 +8523,89 @@ Items: Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Staryu
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Harden
-- Recover
+Psyduck
+Level: 19
+IVs: 0 HP / 0 Atk / 10 Def / 30 SpA / 10 SpD / 20 Spe
+- Confusion
 - Water Pulse
+
+Goldeen
+Level: 20
+IVs: 0 HP / 20 Atk / 0 Def / 0 SpA / 0 SpD / 20 Spe
+- Peck
+- Waterfall
+- Dazzling Gleam
 
 Starmie
 Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 10 HP / 0 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
 - Swift
+- Psybeam
 - Recover
-- Rapid Spin
 - Water Pulse
+
+=== TRAINER_SAILOR_DWAYNE ===
+Name: DWAYNE
+Class: Sailor
+Pic: Sailor
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Voltorb Hisui
+Level: 21
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Charge Beam
+- Self Destruct
+- Bullet Seed
+
+Geodude Alola
+Level: 21
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Smack Down
+- Thunder Punch
+
+=== TRAINER_ENGINEER_BAILY ===
+Name: BAILY
+Class: Engineer
+Pic: Engineer
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Pikachu @ Eviolite
+Level: 21
+IVs: 30 HP / 0 Atk / 30 Def / 0 SpA / 30 SpD / 0 Spe
+- Nuzzle
+- Reflect
+- Light Screen
+- Volt Switch
+
+Pikachu @ Light Ball
+Level: 21
+IVs: 0 HP / 20 Atk / 0 Def / 20 SpA / 0 SpD / 20 Spe
+- Volt Switch
+- Shock Wave
+- Quick Attack
+
+=== TRAINER_GENTLEMAN_TUCKER ===
+Name: TUCKER
+Class: Gentleman
+Pic: Gentleman
+Gender: Male
+Music: Rich
+Double Battle: No
+AI: Check Bad Move
+
+Jolteon
+Level: 22
+IVs: 0 HP / 0 Atk / 0 Def / 30 SpA / 0 SpD / 30 Spe
+- Double Kick
+- Thunder Wave
+- Pin Missile
+- Shock Wave
 
 === TRAINER_LEADER_LT_SURGE ===
 Name: LT. SURGE
@@ -8422,23 +8618,31 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Voltorb
-Level: 21
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sonic Boom
-- Tackle
+- Thunder Wave
 - Screech
 - Shock Wave
+- Swift
 
-Pikachu
-Level: 18
+Electabuzz
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Quick Attack
-- Thunder Wave
-- Double Team
+- Mach Punch
+- Thunder Punch
+- Ice Punch
+- Bulk Up
+
+Porygon
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Icy Wind
+- Conversion
 - Shock Wave
+- Swift
 
 Raichu
-Level: 24
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Quick Attack
 - Thunder Wave
@@ -8637,19 +8841,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidoran F
 Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_GENTLEMAN_TUCKER ===
-Name: TUCKER
-Class: Gentleman
-Pic: Gentleman
-Gender: Male
-Music: Rich
-Double Battle: No
-AI: Check Bad Move
-
-Pikachu
-Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GENTLEMAN_NORTON ===
@@ -10823,135 +11014,6 @@ AI: Check Bad Move
 Ekans
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_LASS_JOANIE ===
-Name: JOANIE
-Class: Lass
-Pic: Lass
-Gender: Male
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Pidgey
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Gust
-- Tackle
-
-Bulbasaur
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Vine Whip
-
-=== TRAINER_BUG_CATCHER_RICK ===
-Name: RICK
-Class: Bug Catcher
-Pic: Bug Catcher
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Weedle
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Caterpie
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_BUG_CATCHER_DOUG ===
-Name: DOUG
-Class: Bug Catcher
-Pic: Bug Catcher
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Weedle
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Caterpie
-Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Paras
-Level: 9
-IVs: 20 HP / 10 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Scratch
-- Poison Powder
-- Absorb
-
-=== TRAINER_BUG_CATCHER_ANTHONY ===
-Name: ANTHONY
-Class: Cooltrainer
-Pic: Cooltrainer M
-Gender: Male
-Music: Cool
-Items: Full Restore
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
-
-Weedle
-Level: 7
-IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Poison Sting
-
-Pikachu
-Level: 8
-IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 30 Spe
-- Thunder Shock
-- Thunder Wave
-
-Butterfree
-Level: 10
-IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Confusion
-- Gust
-- Signal Beam
-
-=== TRAINER_BUG_CATCHER_CHARLIE ===
-Name: CHARLIE
-Class: Bug Catcher
-Pic: Bug Catcher
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Caterpie
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Kakuna
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Metapod
-Level: 9
-IVs: 20 HP / 20 Atk / 20 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Harden
-
-=== TRAINER_BUG_CATCHER_SAMMY ===
-Name: SAMMY
-Class: Bug Catcher
-Pic: Bug Catcher
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Venonat
-Level: 10
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
-- Struggle Bug
-- Confusion
-- Disable
 
 === TRAINER_TWINS_ELI_ANNE_2 ===
 Name: ELI & ANNE

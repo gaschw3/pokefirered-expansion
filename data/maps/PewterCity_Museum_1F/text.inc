@@ -79,9 +79,13 @@ PewterCity_Museum_1F_Text_BeautifulPieceOfAmber::
 
 PewterCity_Museum_1F_Text_AerodactylFossil::
     .string "AERODACTYL Fossil\n"
-    .string "A primitive and rare POKéMON.$"
+    .string "An ancient DRAGON POKéMON.$"
 
 PewterCity_Museum_1F_Text_KabutopsFossil::
     .string "KABUTOPS Fossil\n"
-    .string "A primitive and rare POKéMON.$"
+    .string "An ancient STEEL POKéMON.$"
+
+PewterCity_Museum_1F_Text_OmastarFossil::
+    .string "OMASTAR Fossil\n"
+    .string "An ancient ICE POKéMON.$"
 

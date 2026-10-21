@@ -1,0 +1,11 @@
+RockTunnel_NorthEntrance_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, RockTunnel_NorthEntrance_OnTransition
+	.byte 0
+
+RockTunnel_NorthEntrance_OnTransition::
+	setworldmapflag FLAG_WORLD_MAP_ROCK_TUNNEL_1F
+	end
+
+RockTunnel_NorthEntrance_EventScript_DarknessSign::
+	msgbox RockTunnel_Entrance_Text_RouteSign, MSGBOX_SIGN
+	end

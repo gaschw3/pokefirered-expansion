@@ -223,6 +223,7 @@ PalletTown_ProfessorOaksLab_ChooseStarterScene::
 	waitmovement 0
 	msgbox PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe
 	msgbox PalletTown_ProfessorOaksLab_Text_OakBePatientRival
+	msgbox PalletTown_ProfessorOaksLab_Text_OakYourMomWantedMeToGiveYou
 	playfanfare MUS_OBTAIN_KEY_ITEM
 	textcolor NPC_TEXT_COLOR_NEUTRAL
 	message PalletTown_ProfessorOaksLab_Text_ReceivedRunningShoesFromAide

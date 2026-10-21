@@ -1372,3 +1372,9 @@ Text_TestMsg::
 
 	.include "data/maps/ViridianCity_NewFisherHouse/scripts.inc"
 	.include "data/maps/ViridianCity_NewFisherHouse/text.inc"
+
+	.include "data/maps/RockTunnel_NorthEntrance/scripts.inc"
+	.include "data/maps/RockTunnel_NorthEntrance/text.inc"
+
+	.include "data/maps/RockTunnel_B2F/scripts.inc"
+	.include "data/maps/RockTunnel_B2F/text.inc"

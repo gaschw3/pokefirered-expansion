@@ -358,6 +358,11 @@ PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex::
     .string "ONE ISLAND first…\p"
     .string "Anyways, I'm outta here!$"
 
+PalletTown_ProfessorOaksLab_Text_OakYourMomWantedMeToGiveYou::
+    .string "Oh yes, before I forget;\p"
+    .string "{PLAYER}, your mom wanted me to\n"
+    .string "give these to you."
+
 PalletTown_ProfessorOaksLab_Text_ReceivedRunningShoesFromAide::
     .string "{PLAYER} received the\n"
     .string "RUNNING SHOES from PROF. OAK.$"
@@ -369,4 +374,3 @@ PalletTown_ProfessorOaksLab_Text_ReceivedRunningShoesFromAide2::
 PalletTown_ProfessorOaksLab_Text_PressB::
     .string "With the RUNNING SHOES,\n"
     .string "press the B Button to run!$"
-    

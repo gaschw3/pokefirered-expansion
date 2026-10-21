@@ -260,8 +260,8 @@
     },
     {
       "type": "hidden_item",
-      "x": 14,
-      "y": 157,
+      "x": 13,
+      "y": 138,
       "elevation": 3,
       "item": "ITEM_MAX_ELIXIR",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE17_MAX_ELIXIR",
